@@ -1,0 +1,6 @@
+//////////////////////////////
+// Get a setting
+//////////////////////////////
+@function get($setting) {
+  @return map-get($GlobalSettings, $setting);
+}

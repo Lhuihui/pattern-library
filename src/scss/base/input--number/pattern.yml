@@ -1,0 +1,33 @@
+name: Input - Number
+description: Number input field for a form
+displayTemplate: pattern
+applicationMethods:
+  - code: '.base--number-input'
+    description: 'Add this class to an element'
+  - code: '.base--STYLED input[type="number"]'
+    description: '`<input type="number">` tag inside a class of `.base--STYLED`'
+  - code: '%base--number-input'
+    description: 'Extend this silent selector through Sass'
+settings:
+  - setting: input padding
+    description: Padding of input box
+  - setting: input border width
+    description: Border width of input box
+  - setting: input border color
+    description: Color of input box border
+  - setting: background color
+    description: Background color of input box
+variables:
+  inputs:
+    basic:
+      label: Basic Number Input
+      type: number
+    placeholder:
+      label: Placeholder Number
+      type: number
+      placeholder: This is placeholder number
+    disabled:
+      label: Disabled Number Input
+      type: number
+      placeholder: Can't touch this
+      disabled: true

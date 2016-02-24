@@ -1,0 +1,23 @@
+name: Pre
+description: Pre-formatted text
+displayTemplate: pattern
+applicationMethods:
+  - code: '.base--pre'
+    description: 'Add this class to an element'
+  - code: '.base--STYLED pre'
+    description: '`<pre>` tag inside a class of `.base--STYLED`'
+  - code: '%base--pre'
+    description: 'Extend this silent selector through Sass'
+settings:
+  - setting: large typography breakpoint
+    description: Breakpoint to move from smaller to larger typography
+variables:
+  snippet: >
+    h1 {
+      font-size: ms(5);
+      font-weight: normal;
+
+      @include breakpoint($large-typography) {
+        font-size: ms(6);
+      }
+    }

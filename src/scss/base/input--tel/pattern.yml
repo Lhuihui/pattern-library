@@ -1,0 +1,38 @@
+name: Input - Telephone
+description: Tel input field for a form
+displayTemplate: pattern
+applicationMethods:
+  - code: '.base--tel-input'
+    description: 'Add this class to an element'
+  - code: '.base--STYLED input[type="tel"]'
+    description: '`<input type="tel">` tag inside a class of `.base--STYLED`'
+  - code: '%base--tel-input'
+    description: 'Extend this silent selector through Sass'
+settings:
+  - setting: input padding
+    description: Padding of input box
+  - setting: input border width
+    description: Border width of input box
+  - setting: input border color
+    description: Color of input box border
+  - setting: background color
+    description: Background color of input box
+variables:
+  inputs:
+    basic:
+      label: Basic Tel Input
+      type: tel
+    placeholder:
+      label: Placeholder with Default Tel Pattern
+      type: tel
+      placeholder: 8882121881
+    pattern:
+      label: Pattern Based on USA Phone Number
+      type: tel
+      pattern: \d{3}[\-]\d{3}[\-]\d{4}
+      placeholder: 123-343-9938
+    disabled:
+      label: Disabled Tel Input
+      type: tel
+      placeholder: 8882121881
+      disabled: true

@@ -1,0 +1,33 @@
+name: Input - Week
+description: Week input field for a form
+displayTemplate: pattern
+applicationMethods:
+  - code: '.base--week-input'
+    description: 'Add this class to an element'
+  - code: '.base--STYLED input[type="week"]'
+    description: '`<input type="week">` tag inside a class of `.base--STYLED`'
+  - code: '%base--week-input'
+    description: 'Extend this silent selector through Sass'
+settings:
+  - setting: input padding
+    description: Padding of input box
+  - setting: input border width
+    description: Border width of input box
+  - setting: input border color
+    description: Color of input box border
+  - setting: background color
+    description: Background color of input box
+variables:
+  inputs:
+    basic:
+      label: Basic Week Input
+      type: week
+    placeholder:
+      label: Placeholder Week
+      type: week
+      placeholder: This is placeholder week
+    disabled:
+      label: Disabled Week Input
+      type: week
+      placeholder: Can't click me
+      disabled: true

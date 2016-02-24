@@ -1,0 +1,6 @@
+$BreakpointSettings: (
+  'heading nav inline breakpoint': 700px,
+  'tablet portrait': 768px
+);
+
+$GlobalSettings: map-merge($GlobalSettings, $BreakpointSettings);

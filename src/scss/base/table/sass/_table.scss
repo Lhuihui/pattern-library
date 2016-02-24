@@ -1,0 +1,26 @@
+// @import '../../../core/sass/core';
+
+@import 'partials/vars';
+@import 'partials/settings';
+@import 'partials/mixins';
+@import 'partials/extends';
+
+.base--table,
+.base--STYLED table {
+  @extend %base--table;
+}
+
+.base--thead,
+.base--STYLED thead {
+  @extend %base--thead;
+}
+
+.base--td,
+.base--STYLED td {
+  @extend %base--td;
+}
+
+.base--tr,
+.base--STYLED tr {
+  @extend %base--tr;
+}

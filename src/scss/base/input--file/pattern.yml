@@ -1,0 +1,33 @@
+name: Input - File
+description: File input field for a form
+displayTemplate: pattern
+applicationMethods:
+  - code: '.base--file-input'
+    description: 'Add this class to an element'
+  - code: '.base--STYLED input[type="file"]'
+    description: '`<input type="file">` tag inside a class of `.base--STYLED`'
+  - code: '%base--file-input'
+    description: 'Extend this silent selector through Sass'
+settings:
+  - setting: input padding
+    description: Padding of input box
+  - setting: input border width
+    description: Border width of input box
+  - setting: input border color
+    description: Color of input box border
+  - setting: background color
+    description: Background color of input box
+variables:
+  inputs:
+    basic:
+      label: Basic File Input
+      type: file
+    placeholder:
+      label: Placeholder File
+      type: file
+      placeholder: This is placeholder file
+    disabled:
+      label: Disabled File Input
+      type: file
+      placeholder: Can't click me
+      disabled: true

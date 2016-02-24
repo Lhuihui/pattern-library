@@ -1,0 +1,14 @@
+// @import '../../../core/sass/core';
+
+@import 'partials/vars';
+@import 'partials/settings';
+@import 'partials/mixins';
+@import 'partials/extends';
+
+body {
+  @extend %body--typography;
+  @extend %body--block;
+
+  background: get('background color');
+  color: get('text color');
+}

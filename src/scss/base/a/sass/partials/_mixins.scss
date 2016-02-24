@@ -1,0 +1,9 @@
+@mixin base--a($color: null, $background: null) {
+
+  color: get('secondary support color');
+
+  &:hover,
+  &:focus {
+    color: color('gray', 30);
+  }
+}

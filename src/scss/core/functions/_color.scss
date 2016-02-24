@@ -1,0 +1,46 @@
+////////////////////////////////
+//
+// Color Palette
+// Adapted from IBM Design Colors:
+// https://github.com/IBM-Design/colors/blob/master/_ibm-colors.scss
+//
+// Gets the specified color from the specified color palette
+//
+// Usage:
+//
+// background: color('blue', 80); // #1d3649
+//
+////////////////////////////////
+
+@import '../settings/color-palette';
+
+@function color($palette, $tone: '50') {
+  // Add a little helper so tone can be passed as single digit number
+  @if type-of($tone) == 'number' {
+    @if $tone % 10 == $tone {
+      $tone: $tone * 10;
+    }
+  }
+
+  // Because it's spelled gr(a|e)y and we've got spaces
+  @if $palette == 'grey' {
+    $palette: 'gray';
+  }
+  @else if $palette == 'warm-grey' or $palette == 'warm grey' or $palette == 'warm gray' {
+    $palette: 'warm-gray';
+  }
+  @else if $palette == 'cool-grey' or $palette == 'cool grey' or $palette == 'cool gray' {
+    $palette: 'cool-gray';
+  }
+  @else if $palette == 'neutral white' {
+    $palette: 'neutral-white';
+  }
+  @else if $palette == 'cool white' {
+    $palette: 'cool-white';
+  }
+  @else if $palette == 'warm white' {
+    $palette: 'warm-white';
+  }
+
+  @return map-get(map-get($ColorPalette, $palette), $tone);
+}

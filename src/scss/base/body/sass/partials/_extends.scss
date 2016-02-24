@@ -1,0 +1,14 @@
+%body--typography {
+  @extend %font--sans;
+  @extend %base--font-weight;
+  line-height: 1.5;
+  
+}
+
+%body--block {
+  margin: 0;
+  
+  & * + * {
+    margin-top: get('rhythm') / 2;
+  }
+}

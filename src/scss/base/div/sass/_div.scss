@@ -1,0 +1,11 @@
+@import 'partials/vars';
+@import 'partials/settings';
+@import 'partials/mixins';
+@import 'partials/extends';
+
+.base--div,
+.base--STYLED div,
+div {
+  @extend %clearfix;
+  @extend %border-box;
+}

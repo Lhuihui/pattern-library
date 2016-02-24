@@ -1,0 +1,13 @@
+$ColorScheme: (
+  'primary color': color('blue', 60),
+  'secondary color': color('orange', 50),
+  'white': #fff,
+  'black': #000
+);
+
+$GlobalSettings: map-merge($GlobalSettings, $ColorScheme);
+
+//////////////////////////////
+// Set Watson Greyscale into IBM Colors
+//////////////////////////////
+$__ibm-color-palettes: map-merge($__ibm-color-palettes, ('grayscale': get('grayscale')));
