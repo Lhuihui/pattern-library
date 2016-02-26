@@ -7,12 +7,12 @@ module.exports = {
   paths: {
     src: {
       root: src,
-      styles: src + '/scss'
+      styles: src + '/scss',
+      views: src + '/views'
     },
     build: {
       root: build,
-      styles: build + '/css',
-      views: build + '/index.html'
+      styles: build + '/css'
     }
   }
 };

@@ -9,7 +9,7 @@ var gulp = require('gulp'),
 
 gulp.task('serve', function (cb) {
   return runSequence(
-    ['browser-sync', 'watch'],
+    ['compile', 'browser-sync', 'watch'],
     cb
   );
 });

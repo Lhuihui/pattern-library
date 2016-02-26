@@ -1,0 +1,9 @@
+{% extends "layouts/layout.nunjucks" %}
+
+{% block body %}
+brick
+brick
+{{ super() }}
+brick
+brick
+{% endblock %}

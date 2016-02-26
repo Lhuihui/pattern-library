@@ -7,7 +7,18 @@
 var gulp = require('gulp'),
     browserSync = require('browser-sync');
 
-gulp.task('watch', [
-  'styles:watch',
-  'views:watch'
-]);
+// list of gulp tasks
+var tasks,
+    watches;
+
+tasks = [
+  'styles',
+  'views'
+];
+
+watches = tasks.map(function(element) {
+  return element + ':watch';
+});
+
+gulp.task('compile', tasks);
+gulp.task('watch', watches);
