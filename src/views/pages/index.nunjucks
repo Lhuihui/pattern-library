@@ -1,9 +1,28 @@
 {% extends "layouts/layout.nunjucks" %}
 
 {% block body %}
-brick
-brick
-{{ super() }}
-brick
-brick
+{% include "base/a.nunjucks" %}
+{% include "base/blockquote.nunjucks" %}
+{% include "base/button.nunjucks" %}
+{% include "base/checkbox.nunjucks" %}
+{% include "base/code.nunjucks" %}
+{% include "base/em.nunjucks" %}
+{% include "base/h1.nunjucks" %}
+{% include "base/h2.nunjucks" %}
+{% include "base/h3.nunjucks" %}
+{% include "base/h4.nunjucks" %}
+{% include "base/h5.nunjucks" %}
+{% include "base/h6.nunjucks" %}
+{% include "base/hr.nunjucks" %}
+{% include "base/input.nunjucks" %}
+{% include "base/label.nunjucks" %}
+{% include "base/ol.nunjucks" %}
+{% include "base/p.nunjucks" %}
+{% include "base/pre.nunjucks" %}
+{% include "base/radio.nunjucks" %}
+{% include "base/select.nunjucks" %}
+{% include "base/strong.nunjucks" %}
+{% include "base/table.nunjucks" %}
+{% include "base/textarea.nunjucks" %}
+{% include "base/ul.nunjucks" %}
 {% endblock %}

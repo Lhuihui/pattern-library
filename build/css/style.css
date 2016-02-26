@@ -27,36 +27,6 @@ body, .base--input,
 .base--STYLED pre .base--code {
   font-family: "Courier New", "Lucida Console", monospace; }
 
-.base--div:before,
-.base--STYLED div:before,
-div:before, .base--article:before,
-.base--STYLED article:before,
-article:before, .base--div:after,
-.base--STYLED div:after,
-div:after, .base--article:after,
-.base--STYLED article:after,
-article:after {
-  content: '';
-  display: table;
-  clear: both; }
-
-.base--div,
-.base--STYLED div,
-div, .base--article,
-.base--STYLED article,
-article {
-  box-sizing: border-box; }
-  .base--div:before,
-  .base--STYLED div:before,
-  div:before, .base--article:before,
-  .base--STYLED article:before,
-  article:before, .base--div:after,
-  .base--STYLED div:after,
-  div:after, .base--article:after,
-  .base--STYLED article:after,
-  article:after {
-    box-sizing: border-box; }
-
 /*! Reset/normalize hybrid with major contributions from normalize.css, html5doctor.com Reset Stylesheet, and http://html5reset.org/
 
 * Sam Richard - http://snugug.com/

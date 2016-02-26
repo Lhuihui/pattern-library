@@ -1,7 +1,6 @@
+{# A sample layout template #}
 {% extends "layouts/base.nunjucks" %}
 
 {% block body %}
-
-hello
 
 {% endblock %}
