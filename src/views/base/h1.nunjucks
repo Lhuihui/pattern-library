@@ -1,1 +1,2 @@
-<h1 class="base--h1">{{ header.text }}</h1>
+<h1 class="base--h1">Header 1</h1>
+<h1 class="base--h1">Overflowing filler filler Header 1</h1>

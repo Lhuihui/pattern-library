@@ -1,5 +1,5 @@
-{% for button in buttons -%}
+<button class="base--button">Button</button>
+<button class="base--button" type="submit">Submit Button</button>
+<button class="base--button" type="reset">Reset Button</button>
 
-<button class="base--button" type="{{ button.type }}"> {{ button.label }}</button>
-
-{% endfor %}
+<button class="base--button base--button_block">Button</button>

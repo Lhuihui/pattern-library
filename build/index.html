@@ -24,30 +24,33 @@
   <p class="base--p">- Albert Einstein</p>
 </blockquote>
 
+<button class="base--button">Button</button>
+<button class="base--button" type="submit">Submit Button</button>
+<button class="base--button" type="reset">Reset Button</button>
 
+<button class="base--button base--button_block">Button</button>
 
-<input role="checkbox" class="base--checkbox" type="checkbox" id="" name="cb" value="">
-<label class="base--inline-label" for=""></label>
+<input role="checkbox" class="base--checkbox" type="checkbox" id="cb1" name="cb" value="some cb">
+<label class="base--inline-label" for="cb1">Option 1</label>
 
-<code class="base--code"></code>
+<code class="base--code">This is a code element</code>
 
-<em class="base--em"></em>
+<em class="base--em">emphasized text</em>
 
-<h1 class="base--h1"></h1>
+<h1 class="base--h1">Header 1</h1>
+<h1 class="base--h1">Overflowing filler filler Header 1</h1>
 
-<h2 class="base--h2"></h2>
+<h2 class="base--h2">Header 2</h2>
 
-<h3 class="base--h3"></h3>
+<h3 class="base--h3">Header 3</h3>
 
-<h4 class="base--h4"></h4>
+<h4 class="base--h4">Header 4</h4>
 
+<h5 class="base--h5">Header 5</h5>
 
-<h5 class="base--h5"></h5>
+<h6 class="base--h6">Header 6</h6>
 
-
-<h6 class="base--h6"></h6>
-
-
+<hr class="base--hr">
 
 
 
@@ -56,11 +59,38 @@
 <label class='base--block-label' for="block-control">Block Label</label>
 
 <ol class="base--ol">
+  <li class="base--li">List item 1</li>
+  <li class="base--li">List item 2</li>
+  <li class="base--li">Really super duper long list item that is included so
+    that we can see what lists look like when they wrap</li>
+  <li class="base--li">List item 3</li>
+  <li class="base--li">List item 4</li>
+  <li class="base--li">List item 5</li>
+  <li class="base--li">List item 6</li>
+  <li class="base--li">List item 7</li>
+  <li class="base--li">List item 8</li>
+  <li class="base--li">List item 9</li>
+  <li class="base--li">List item 10</li>
 </ol>
 
-<p class="base--p"></p>
+<p class="base--p">I was eleven years old. And when I was strong
+  enough, I dedicated my life to the study of fencing. So the
+  next time we meet, I will not fail. I will go up to the
+  six-fingered man and say, "Hello. My name is Inigo Montoya.
+  You killed my father. Prepare to die.</p>
 
-<pre class="base--pre"><code class="base--code"></code></pre>
+<pre class="base--pre">
+  <code class="base--code">
+h1 {
+  font-size: ms(5);
+  font-weight: normal;
+
+  @include breakpoint($large-typography) {
+    font-size: ms(6);
+  }
+}
+  </code>
+</pre>
 
 <input role="radio" class="base--radio" type="radio" id="" name="rb" value="">
 <label class="base--inline-label" for=""></label>

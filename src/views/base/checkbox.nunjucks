@@ -1,2 +1,2 @@
-<input role="checkbox" class="base--checkbox" type="checkbox" id="{{ checkbox.id }}" name="cb" value="">
-<label class="base--inline-label" for="{{ checkbox.id }}">{{ checkbox.label }}</label>
+<input role="checkbox" class="base--checkbox" type="checkbox" id="cb1" name="cb" value="some cb">
+<label class="base--inline-label" for="cb1">Option 1</label>
