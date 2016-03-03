@@ -28,8 +28,6 @@
 <button class="base--button" type="submit">Submit Button</button>
 <button class="base--button" type="reset">Reset Button</button>
 
-<button class="base--button base--button_block">Button</button>
-
 <input role="checkbox" class="base--checkbox" type="checkbox" id="cb1" name="cb" value="some cb">
 <label class="base--inline-label" for="cb1">Option 1</label>
 
@@ -38,7 +36,6 @@
 <em class="base--em">emphasized text</em>
 
 <h1 class="base--h1">Header 1</h1>
-<h1 class="base--h1">Overflowing filler filler Header 1</h1>
 
 <h2 class="base--h2">Header 2</h2>
 
@@ -52,7 +49,137 @@
 
 <hr class="base--hr">
 
+<label class="base--block-label" for="input1">Basic Input</label>
+<input type="" id="input1" class="base--input"></input>
 
+<label class="base--block-label" for="input1">Basic Input with Placeholder Text</label>
+<input type="" id="input2" placeholder="This is placeholder text" class="base--input"></input>
+
+<label class="base--block-label" for="input1">Disabled Basic Input</label>
+<input type="" id="input3" placeholder="Can't touch this" class="base--input" disabled></input>
+
+<label class="base--block-label" for="input4">Basic Color Input</label>
+<input type="color" id="input4" class="base--color-input" disabled></input>
+
+<label class="base--block-label" for="input5">Basic Date Input</label>
+<input type="date" id="input5" class="base--date-input"></input>
+
+<label class="base--block-label" for="input6">Disabled Date Input</label>
+<input type="date" id="input6" placeholder="Can't click me" class="base--date-input" disabled></input>
+
+<label class="base--block-label" for="input7">Basic Datetime-local Input</label>
+<input type="datetime-local" id="input7" class="base--datetime-local-input"></input>
+
+<label class="base--block-label" for="input8">Disabled Datetime-local Input</label>
+<input type="datetime-local" id="input8" placeholder="Can't click me" class="base--datetime-local-input" disabled></input>
+
+<label class="base--block-label" for="input12">Basic File Input</label>
+<input type="file" id="input12" class="base--file-input"></input>
+
+<label class="base--block-label" for="input13">Placeholder File</label>
+<input type="file" id="input13" placeholder="This is a placeholder file" class="base--file-input"></input>
+
+<label class="base--block-label" for="input14">Disabled File Input</label>
+<input type="file" id="input14" placeholder="Can't click me" class="base--file-input" disabled></input>
+
+<label class="base--block-label" for="input15">Basic Hidden Input</label>
+<input type="hidden" id="input15" class="base--hidden-input"></input>
+
+<label class="base--block-label" for="input16">Placeholder Hidden</label>
+<input type="hidden" id="input16" placeholder="This is placeholder hidden" class="base--hidden-input"></input>
+
+<label class="base--block-label" for="input17">Disabled Hidden Input</label>
+<input type="hidden" id="input17" placeholder="Can't click me" class="base--hidden-input" disabled></input>
+
+<label class="base--block-label" for="input18">Basic Month Input</label>
+<input type="month" id="input18" class="base--month-input"></input>
+
+<label class="base--block-label" for="input19">Placeholder Month</label>
+<input type="month" id="input19" placeholder="Placeholder Month" class="base--month-input" ></input>
+
+<label class="base--block-label" for="input20">Disabled Month Input</label>
+<input type="month" id="input20" placeholder="Can't click me" class="base--month-input" disabled></input>
+
+<label class="base--block-label" for="input21">Basic Number Input</label>
+<input type="number" id="input21" class="base--number-input"></input>
+
+<label class="base--block-label" for="input22">Placeholder Number</label>
+<input type="number" id="input22" placeholder="This is placeholder number" class="base--number-input"></input>
+
+<label class="base--block-label" for="input23">Disabled Number Input</label>
+<input type="number" id="input23" placeholder="Can't touch this" class="base--number-input" disabled></input>
+
+<label class="base--block-label" for="input24">Basic Password Input</label>
+<input type="password" id="input24" class="base--password-input"></input>
+
+<label class="base--block-label" for="input25">Placeholder Password</label>
+<input type="password" id="input25" placeholder="This is placeholder password" class="base--password-input"></input>
+
+<label class="base--block-label" for="input26">Disabled Password Input</label>
+<input type="password" id="input26" placeholder="Can't touch this" class="base--password-input" disabled></input>
+
+<label class="base--block-label" for="input27">Basic Range Input</label>
+<input type="range" id="input27" class="base--range-input"></input>
+
+<label class="base--block-label" for="input28">Disabled Range Input</label>
+<input type="range" id="input28" class="base--range-input" disabled></input>
+
+<label class="base--block-label" for="input29">Basic Search Input</label>
+<input type="search" id="input29" class="base--search-input"></input>
+
+<label class="base--block-label" for="input30">Placeholder Search</label>
+<input type="search" id="input30" placeholder="This is placeholder search" class="base--search-input"></input>
+
+<label class="base--block-label" for="input31">Disabled Search Input</label>
+<input type="search" id="input31" placeholder="Can't touch this" class="base--search-input" disabled></input>
+
+<label class="base--block-label" for="input32">Basic Tel Input</label>
+<input type="tel" id="input32" class="base--tel-input"></input>
+
+<label class="base--block-label" for="input33">Placeholder with Default Tel Pattern</label>
+<input type="tel" id="input33" placeholder="8882121881" class="base--tel-input"></input>
+
+<label class="base--block-label" for="input34">Pattern Based on USA Phone Number</label>
+<input type="tel" id="input34" placeholder="123-343-9938" pattern="\d{3}[\-]\d{3}[\-]\d{4}" class="base--tel-input"></input>
+
+<label class="base--block-label" for="input35">Disabled Tel Input</label>
+<input type="tel" id="input35" placeholder="8882121881" class="base--tel-input" disabled></input>
+
+<label class="base--block-label" for="input36">Basic Text Input</label>
+<input type="text" id="input36" class="base--text-input"></input>
+
+<label class="base--block-label" for="input37">Placeholder Text</label>
+<input type="text" id="input37" placeholder="This is placeholder text" class="base--text-input"></input>
+
+<label class="base--block-label" for="input38">Disabled Text Input</label>
+<input type="text" id="input38" placeholder="Can't touch this" class="base--text-input" disabled></input>
+
+<label class="base--block-label" for="input39">Basic Time Input</label>
+<input type="time" id="input39" class="base--time-input"></input>
+
+<label class="base--block-label" for="input40">Placeholder Time</label>
+<input type="time" id="input40" placeholder="This is placeholder time" class="base--time-input"></input>
+
+<label class="base--block-label" for="input41">Disabled Time Input</label>
+<input type="time" id="input41" placeholder="Can't Click me" class="base--time-input" disabled></input>
+
+<label class="base--block-label" for="input42">Basic URL Input</label>
+<input type="url" id="input42" class="base--url-input"></input>
+
+<label class="base--block-label" for="input43">Placeholder URL</label>
+<input type="url" id="input43" placeholder="Placeholder URL" class="base--url-input"></input>
+
+<label class="base--block-label" for="input44">Disabled URL Input</label>
+<input type="url" id="input44" placeholder="Placeholder URL" class="base--url-input" disabled></input>
+
+<label class="base--block-label" for="input45">Basic Week Input</label>
+<input type="week" id="input45" class="base--week-input"></input>
+
+<label class="base--block-label" for="input46">Placeholder Week</label>
+<input type="week" id="input46" placeholder="This is placeholder week" class="base--week-input"></input>
+
+<label class="base--block-label" for="input47">Disabled Week Input</label>
+<input type="week" id="input47" placeholder="Can't click me" class="base--week-input" disabled></input>
 
 <label class='base--inline-label' for="inline-control">Inline Label</label>
 
@@ -92,8 +219,8 @@ h1 {
   </code>
 </pre>
 
-<input role="radio" class="base--radio" type="radio" id="" name="rb" value="">
-<label class="base--inline-label" for=""></label>
+<input role="radio" class="base--radio" type="radio" id="rb1" name="rb" value="">
+<label class="base--inline-label" for="rb1">Option 1</label>
 
 <select name="pick-a-value" id="any-value" class="base--select">
   <option value="value1">Value 1</option>
@@ -101,23 +228,52 @@ h1 {
   <option value="value3">Value 3</option>
 </select>
 
-<strong class="base--strong"></strong>
+<strong class="base--strong">This text is very important.</strong>
 
 <table class="base--table">
   <thead class="base--thead">
     <tr class="base--tr">
-      
+      <td class="base--td">First Name</td>
+      <td class="base--td">Last Name</td>
+      <td class="base--td">Role</td>
     </tr>
   </thead>
   <tbody class="base--tbody">
-    
+    <tr class="base--tr">
+      <td class="base--td">Westley</td>
+      <td class="base--td">--</td>
+      <td class="base--td">The Man in Black</td>
+    </tr>
+    <tr class="base--tr">
+      <td class="base--td">Princess</td>
+      <td class="base--td">Buttercup</td>
+      <td class="base--td">The Princess Bride</td>
+    </tr>
+    <tr class="base--tr">
+      <td class="base--td">Prince</td>
+      <td class="base--td">Humperdinck</td>
+      <td class="base--td">The Obnoxious Prince</td>
+    </tr>
+    <tr class="base--tr">
+      <td class="base--td">Barack</td>
+      <td class="base--td">Obama</td>
+      <td class="base--td">President</td>
+    </tr>
+    <tr class="base--tr">
+      <td class="base--td">John</td>
+      <td class="base--td">Doe</td>
+      <td class="base--td">Placeholder</td>
+    </tr>
   </tbody>
 </table>
 
-<label class="base--block-label" for="">Textarea:</label>
-<textarea class="base--textarea" name="" id="" cols="" rows=""></textarea>
+<label class="base--block-label" for="textarea1">Textarea:</label>
+<textarea class="base--textarea" name="text-area" id="textarea1" cols="30" rows="10"></textarea>
 
 <ul class="base--ul">
+  <li class="base--li">List item 1</li>
+  <li class="base--li">List item 2</li>
+  <li class="base--li">List item 3</li>
 </ul>
 
 

@@ -1,0 +1,9 @@
+@import 'vars';
+@import 'settings';
+@import 'mixins';
+@import 'extends';
+
+.base--a,
+.base--STYLED a {
+  @extend %base--a;
+}
