@@ -1,4 +1,4 @@
-{# A sample layout template #}
+{# A sample template #}
 {% extends "templates/base.nunjucks" %}
 
 {% block body %}
