@@ -1,5 +1,5 @@
 {# A sample layout template #}
-{% extends "layouts/base.nunjucks" %}
+{% extends "templates/base.nunjucks" %}
 
 {% block body %}
 

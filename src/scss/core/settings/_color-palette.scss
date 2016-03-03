@@ -5,6 +5,7 @@
 // https://github.com/IBM-Design/colors/blob/master/_ibm-colors.scss
 //
 ////////////////////////////////
+
 $ColorPalette: (
   'blue': (
     10: #c0e6ff,
@@ -157,3 +158,5 @@ $ColorPalette: (
     40: #f2eeee
   )
 );
+
+$GlobalSettings: map-merge($GlobalSettings, $ColorPalette);

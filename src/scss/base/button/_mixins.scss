@@ -1,4 +1,4 @@
-@mixin base--button($color: get('secondary support color'), $background: transparent, $border: get('secondary color'), $block: false) {
+@mixin base--button($color: get('secondary color'), $background: transparent, $border: get('secondary color'), $block: false) {
   padding: 0.5em 1em;
   color: $color;
   font-weight: bold;
@@ -27,7 +27,7 @@
   margin: 0rem;
 }
 
-@mixin button--blue() {
+@mixin base--button_blue() {
   @include base--button($color: white, $background: get('primary color'), $border: get('primary color'));
   &:focus,
   &:hover {
@@ -35,7 +35,7 @@
   }
 }
 
-@mixin button--red() {
+@mixin base--button_red() {
   @include base--button($color: white, $background: color('orange', 60), $border: color('orange', 60));
   &:focus,
   &:hover {

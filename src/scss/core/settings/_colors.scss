@@ -6,8 +6,3 @@ $ColorScheme: (
 );
 
 $GlobalSettings: map-merge($GlobalSettings, $ColorScheme);
-
-//////////////////////////////
-// Set Watson Greyscale into IBM Colors
-//////////////////////////////
-$__ibm-color-palettes: map-merge($__ibm-color-palettes, ('grayscale': get('grayscale')));
