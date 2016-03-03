@@ -491,8 +491,12 @@ body {
 .base--hr {
   border-top: 2px solid #ececec; }
 
-.base--a:hover, .base--a:focus {
-  color: #aeaeae; }
+.base--a {
+  color: #d74108; }
+  .base--a:visited {
+    color: #d74108; }
+  .base--a:hover, .base--a:focus {
+    color: #aeaeae; }
 
 .base--em {
   font-style: italic; }
@@ -594,3 +598,6 @@ body {
   @media (min-width: 1024px) {
     .container {
       width: 1024px; } }
+
+.row {
+  display: block; }

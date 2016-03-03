@@ -2,18 +2,23 @@
 
 {% block body %}
 <div class="container">
+  <a class="base--a" href="http://demo.patternlab.io/">http://demo.patternlab.io/</a>
+  <h3 class="base--h3">Headers</h3>
+  <hr class="base--hr">
+  <div class="row">
+    {% include "base/h1.nunjucks" %}
+    {% include "base/h2.nunjucks" %}
+    {% include "base/h3.nunjucks" %}
+    {% include "base/h4.nunjucks" %}
+    {% include "base/h5.nunjucks" %}
+    {% include "base/h6.nunjucks" %}
+  </div>
   {% include "base/a.nunjucks" %}
   {% include "base/blockquote.nunjucks" %}
   {% include "base/button.nunjucks" %}
   {% include "base/checkbox.nunjucks" %}
   {% include "base/code.nunjucks" %}
   {% include "base/em.nunjucks" %}
-  {% include "base/h1.nunjucks" %}
-  {% include "base/h2.nunjucks" %}
-  {% include "base/h3.nunjucks" %}
-  {% include "base/h4.nunjucks" %}
-  {% include "base/h5.nunjucks" %}
-  {% include "base/h6.nunjucks" %}
   {% include "base/hr.nunjucks" %}
   {% include "base/input.nunjucks" %}
   {% include "base/input--color.nunjucks" %}
