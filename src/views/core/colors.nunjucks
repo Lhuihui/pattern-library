@@ -1,0 +1,157 @@
+<h6>Blue</h6>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<h6>Green</h6>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<h6>Teal</h6>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<h6>Purple</h6>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<h6>Magenta</h6>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<h6>Red</h6>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<h6>Orange</h6>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<h6>Yellow</h6>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<h6>Gray</h6>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<h6>Cool Gray</h6>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<h6>Warm Gray</h6>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<h6>Neutral White</h6>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<h6>Cool White</h6>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<h6>Warm White</h6>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+<div class="color-tile"></div>
+
+<script>
+var unquote = function(str) {
+  var result = str;
+  if (str.charAt(0) == '\"') {
+    result = result.substring(1, result.length);
+  }
+  if (str.charAt(str.length - 1) == '\"') {
+    result = result.substring(0, result.length - 1);
+  }
+  return result;
+}
+var colorTiles = document.querySelectorAll('.color-tile');
+var content = [];
+for (var i = 0; i < colorTiles.length; i++) {
+  content = window.getComputedStyle(colorTiles[i], ':after').content.split('|');
+  for (var j = 0; j < content.length; j++) {
+    colorTiles[i].innerHTML += '<p class="base--p color-tile--details">' + unquote(content[j]) + '</p>';
+  }
+}
+  </script>

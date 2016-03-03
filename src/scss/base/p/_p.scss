@@ -1,7 +1,6 @@
 @import 'mixins';
 @import 'extends';
 
-.base--p,
-.base--STYLED p {
+.base--p {
   @extend %base--p;
 }

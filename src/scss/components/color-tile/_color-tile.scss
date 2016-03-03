@@ -1,0 +1,40 @@
+.color-tile {
+  $count: 1;
+  width: 140px;
+  height: 140px;
+  margin: 0;
+  display: inline-block;
+  word-break: break-word;
+  padding: 0.5rem;
+  vertical-align: middle;
+  @each $name,
+  $value in $ColorPalette {
+    @each $shade,
+    $value-2 in map-get($ColorPalette, $name) {
+      @if $shade != 'core' {
+        &:nth-of-type(#{($count)}) {
+          background-color: color($name, $shade);
+          &:after {
+            content: "color('" + $name + "', " + $shade + ")|" + color($name, $shade);
+            visibility: hidden;
+            height: 0;
+            width: 0;
+            overflow: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+          }
+          $text-color: #000;
+          @if (lightness( color($name, $shade) ) <= 50) {
+            $text-color: #fff; // Lighter color, return black
+          }
+          color: $text-color;
+        }
+        &--details {
+          color: inherit;
+        }
+        $count: $count + 1;
+      }
+    }
+  }
+}
