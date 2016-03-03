@@ -1,9 +1,6 @@
-@import 'vars';
-@import 'settings';
 @import 'mixins';
 @import 'extends';
 
-.base--blockquote,
-.base--STYLED blockquote {
+.base--blockquote {
   @extend %base--blockquote;
 }
