@@ -5,10 +5,8 @@
   We can do something like this page: <a class="base--a" href="http://demo.patternlab.io/">http://demo.patternlab.io/</a>
   <h3 class="base--h3">Color Scheme</h3>
   <hr class="base--hr">
-  <h3 class="base--h3">Color Palette</h3>
-  <hr class="base--hr">
-  {% include "core/colors.nunjucks" %}
-  <h3 class="base--h3">Headers</h3>
+
+  <h3 class="base--h3">Typography</h3>
   <hr class="base--hr">
   <div class="row">
     {% include "base/h1.nunjucks" %}
@@ -19,7 +17,13 @@
     {% include "base/h6.nunjucks" %}
   </div>
   {% include "base/a.nunjucks" %}
+  {% include "base/p.nunjucks" %}  
   {% include "base/blockquote.nunjucks" %}
+
+  <h3 class="base--h3">Color Palette</h3>
+  <hr class="base--hr">
+  {% include "core/colors.nunjucks" %}
+
   {% include "base/button.nunjucks" %}
   {% include "base/checkbox.nunjucks" %}
   {% include "base/code.nunjucks" %}
