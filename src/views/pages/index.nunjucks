@@ -50,7 +50,6 @@
   {% include "base/input--week.nunjucks" %}
   {% include "base/label.nunjucks" %}
   {% include "base/ol.nunjucks" %}
-  {% include "base/p.nunjucks" %}
   {% include "base/pre.nunjucks" %}
   {% include "base/radio.nunjucks" %}
   {% include "base/select.nunjucks" %}
