@@ -24,15 +24,18 @@
   <hr class="base--hr">
   {% include "base/button.nunjucks" %}
 
+  <h3 class="base--h3">Checkbox and dropdown</h3>
+  <hr class="base--hr">
   {% include "base/checkbox.nunjucks" %}
+  {% include "base/radio.nunjucks" %}
+  {% include "base/select.nunjucks" %}
+
   {% include "base/code.nunjucks" %}
   {% include "base/em.nunjucks" %}
 
   {% include "base/label.nunjucks" %}
   {% include "base/ol.nunjucks" %}
   {% include "base/pre.nunjucks" %}
-  {% include "base/radio.nunjucks" %}
-  {% include "base/select.nunjucks" %}
   {% include "base/strong.nunjucks" %}
   {% include "base/table.nunjucks" %}
   {% include "base/ul.nunjucks" %}
