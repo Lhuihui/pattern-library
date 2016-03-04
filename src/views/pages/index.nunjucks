@@ -27,7 +27,6 @@
   {% include "base/checkbox.nunjucks" %}
   {% include "base/code.nunjucks" %}
   {% include "base/em.nunjucks" %}
-  {% include "base/hr.nunjucks" %}
 
   {% include "base/label.nunjucks" %}
   {% include "base/ol.nunjucks" %}
