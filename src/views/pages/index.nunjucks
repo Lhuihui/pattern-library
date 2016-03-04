@@ -3,7 +3,9 @@
 {% block body %}
 <div class="container">
   We can do something like this page: <a class="base--a" href="http://demo.patternlab.io/">http://demo.patternlab.io/</a>
-  <h3 class="base--h3">Colors</h3>
+  <h3 class="base--h3">Color Scheme</h3>
+  <hr class="base--hr">
+  <h3 class="base--h3">Color Palette</h3>
   <hr class="base--hr">
   {% include "core/colors.nunjucks" %}
   <h3 class="base--h3">Headers</h3>
