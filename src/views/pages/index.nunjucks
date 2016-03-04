@@ -32,6 +32,18 @@
   {% include "base/code.nunjucks" %}
   {% include "base/em.nunjucks" %}
   {% include "base/hr.nunjucks" %}
+
+  {% include "base/label.nunjucks" %}
+  {% include "base/ol.nunjucks" %}
+  {% include "base/pre.nunjucks" %}
+  {% include "base/radio.nunjucks" %}
+  {% include "base/select.nunjucks" %}
+  {% include "base/strong.nunjucks" %}
+  {% include "base/table.nunjucks" %}
+  {% include "base/ul.nunjucks" %}
+
+  <h3 class="base--h3">Input & textarea</h3>
+  <hr class="base--hr">
   {% include "base/input.nunjucks" %}
   {% include "base/input--color.nunjucks" %}
   {% include "base/input--date.nunjucks" %}
@@ -48,14 +60,6 @@
   {% include "base/input--time.nunjucks" %}
   {% include "base/input--url.nunjucks" %}
   {% include "base/input--week.nunjucks" %}
-  {% include "base/label.nunjucks" %}
-  {% include "base/ol.nunjucks" %}
-  {% include "base/pre.nunjucks" %}
-  {% include "base/radio.nunjucks" %}
-  {% include "base/select.nunjucks" %}
-  {% include "base/strong.nunjucks" %}
-  {% include "base/table.nunjucks" %}
   {% include "base/textarea.nunjucks" %}
-  {% include "base/ul.nunjucks" %}
 </div>
 {% endblock %}
