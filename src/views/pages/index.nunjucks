@@ -6,7 +6,7 @@
   <h3 class="base--h3">Color Scheme</h3>
   <hr class="base--hr">
 
-  <h3 class="base--h3">Typography</h3>
+  <h3 class="base--h3">Header</h3>
   <hr class="base--hr">
   <div class="row">
     {% include "base/h1.nunjucks" %}
@@ -16,6 +16,9 @@
     {% include "base/h5.nunjucks" %}
     {% include "base/h6.nunjucks" %}
   </div>
+
+  <h3 class="base--h3">Text</h3>
+  <hr class="base--hr">
   {% include "base/a.nunjucks" %}
   {% include "base/p.nunjucks" %}
   {% include "base/blockquote.nunjucks" %}
