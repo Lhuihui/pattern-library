@@ -17,14 +17,17 @@
     {% include "base/h6.nunjucks" %}
   </div>
   {% include "base/a.nunjucks" %}
-  {% include "base/p.nunjucks" %}  
+  {% include "base/p.nunjucks" %}
   {% include "base/blockquote.nunjucks" %}
+
+  <h3 class="base--h3">Button</h3>
+  <hr class="base--hr">
+  {% include "base/button.nunjucks" %}
 
   <h3 class="base--h3">Color Palette</h3>
   <hr class="base--hr">
   {% include "core/colors.nunjucks" %}
 
-  {% include "base/button.nunjucks" %}
   {% include "base/checkbox.nunjucks" %}
   {% include "base/code.nunjucks" %}
   {% include "base/em.nunjucks" %}
