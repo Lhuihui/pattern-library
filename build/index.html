@@ -59,6 +59,103 @@
 <button class="base--button base--button_reset" type="reset">Reset Button</button>
 
 
+  <input role="checkbox" class="base--checkbox" type="checkbox" id="cb1" name="cb" value="some cb">
+<label class="base--inline-label" for="cb1">Option 1</label>
+
+  <code class="base--code">This is a code element</code>
+
+  <em class="base--em">emphasized text</em>
+
+  <hr class="base--hr">
+
+
+  <label class='base--inline-label' for="inline-control">Inline Label</label>
+
+<label class='base--block-label' for="block-control">Block Label</label>
+
+  <ol class="base--ol">
+  <li class="base--li">List item 1</li>
+  <li class="base--li">List item 2</li>
+  <li class="base--li">Really super duper long list item that is included so
+    that we can see what lists look like when they wrap</li>
+  <li class="base--li">List item 3</li>
+  <li class="base--li">List item 4</li>
+  <li class="base--li">List item 5</li>
+  <li class="base--li">List item 6</li>
+  <li class="base--li">List item 7</li>
+  <li class="base--li">List item 8</li>
+  <li class="base--li">List item 9</li>
+  <li class="base--li">List item 10</li>
+</ol>
+
+  <pre class="base--pre">
+  <code class="base--code">
+h1 {
+  font-size: ms(5);
+  font-weight: normal;
+
+  @include breakpoint($large-typography) {
+    font-size: ms(6);
+  }
+}
+  </code>
+</pre>
+
+  <input role="radio" class="base--radio" type="radio" id="rb1" name="rb" value="">
+<label class="base--inline-label" for="rb1">Option 1</label>
+
+  <select name="pick-a-value" id="any-value" class="base--select">
+  <option value="value1">Value 1</option>
+  <option value="value2">Value 2</option>
+  <option value="value3">Value 3</option>
+</select>
+
+  <strong class="base--strong">This text is very important.</strong>
+
+  <table class="base--table">
+  <thead class="base--thead">
+    <tr class="base--tr">
+      <td class="base--td">First Name</td>
+      <td class="base--td">Last Name</td>
+      <td class="base--td">Role</td>
+    </tr>
+  </thead>
+  <tbody class="base--tbody">
+    <tr class="base--tr">
+      <td class="base--td">Westley</td>
+      <td class="base--td">--</td>
+      <td class="base--td">The Man in Black</td>
+    </tr>
+    <tr class="base--tr">
+      <td class="base--td">Princess</td>
+      <td class="base--td">Buttercup</td>
+      <td class="base--td">The Princess Bride</td>
+    </tr>
+    <tr class="base--tr">
+      <td class="base--td">Prince</td>
+      <td class="base--td">Humperdinck</td>
+      <td class="base--td">The Obnoxious Prince</td>
+    </tr>
+    <tr class="base--tr">
+      <td class="base--td">Barack</td>
+      <td class="base--td">Obama</td>
+      <td class="base--td">President</td>
+    </tr>
+    <tr class="base--tr">
+      <td class="base--td">John</td>
+      <td class="base--td">Doe</td>
+      <td class="base--td">Placeholder</td>
+    </tr>
+  </tbody>
+</table>
+
+  <ul class="base--ul">
+  <li class="base--li">List item 1</li>
+  <li class="base--li">List item 2</li>
+  <li class="base--li">List item 3</li>
+</ul>
+
+
   <h3 class="base--h3">Color Palette</h3>
   <hr class="base--hr">
   <h6>Blue</h6>
@@ -218,103 +315,6 @@ for (var i = 0; i < colorTiles.length; i++) {
   }
 }
   </script>
-
-
-  <input role="checkbox" class="base--checkbox" type="checkbox" id="cb1" name="cb" value="some cb">
-<label class="base--inline-label" for="cb1">Option 1</label>
-
-  <code class="base--code">This is a code element</code>
-
-  <em class="base--em">emphasized text</em>
-
-  <hr class="base--hr">
-
-
-  <label class='base--inline-label' for="inline-control">Inline Label</label>
-
-<label class='base--block-label' for="block-control">Block Label</label>
-
-  <ol class="base--ol">
-  <li class="base--li">List item 1</li>
-  <li class="base--li">List item 2</li>
-  <li class="base--li">Really super duper long list item that is included so
-    that we can see what lists look like when they wrap</li>
-  <li class="base--li">List item 3</li>
-  <li class="base--li">List item 4</li>
-  <li class="base--li">List item 5</li>
-  <li class="base--li">List item 6</li>
-  <li class="base--li">List item 7</li>
-  <li class="base--li">List item 8</li>
-  <li class="base--li">List item 9</li>
-  <li class="base--li">List item 10</li>
-</ol>
-
-  <pre class="base--pre">
-  <code class="base--code">
-h1 {
-  font-size: ms(5);
-  font-weight: normal;
-
-  @include breakpoint($large-typography) {
-    font-size: ms(6);
-  }
-}
-  </code>
-</pre>
-
-  <input role="radio" class="base--radio" type="radio" id="rb1" name="rb" value="">
-<label class="base--inline-label" for="rb1">Option 1</label>
-
-  <select name="pick-a-value" id="any-value" class="base--select">
-  <option value="value1">Value 1</option>
-  <option value="value2">Value 2</option>
-  <option value="value3">Value 3</option>
-</select>
-
-  <strong class="base--strong">This text is very important.</strong>
-
-  <table class="base--table">
-  <thead class="base--thead">
-    <tr class="base--tr">
-      <td class="base--td">First Name</td>
-      <td class="base--td">Last Name</td>
-      <td class="base--td">Role</td>
-    </tr>
-  </thead>
-  <tbody class="base--tbody">
-    <tr class="base--tr">
-      <td class="base--td">Westley</td>
-      <td class="base--td">--</td>
-      <td class="base--td">The Man in Black</td>
-    </tr>
-    <tr class="base--tr">
-      <td class="base--td">Princess</td>
-      <td class="base--td">Buttercup</td>
-      <td class="base--td">The Princess Bride</td>
-    </tr>
-    <tr class="base--tr">
-      <td class="base--td">Prince</td>
-      <td class="base--td">Humperdinck</td>
-      <td class="base--td">The Obnoxious Prince</td>
-    </tr>
-    <tr class="base--tr">
-      <td class="base--td">Barack</td>
-      <td class="base--td">Obama</td>
-      <td class="base--td">President</td>
-    </tr>
-    <tr class="base--tr">
-      <td class="base--td">John</td>
-      <td class="base--td">Doe</td>
-      <td class="base--td">Placeholder</td>
-    </tr>
-  </tbody>
-</table>
-
-  <ul class="base--ul">
-  <li class="base--li">List item 1</li>
-  <li class="base--li">List item 2</li>
-  <li class="base--li">List item 3</li>
-</ul>
 
 
   <h3 class="base--h3">Input & textarea</h3>

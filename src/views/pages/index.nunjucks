@@ -24,10 +24,6 @@
   <hr class="base--hr">
   {% include "base/button.nunjucks" %}
 
-  <h3 class="base--h3">Color Palette</h3>
-  <hr class="base--hr">
-  {% include "core/colors.nunjucks" %}
-
   {% include "base/checkbox.nunjucks" %}
   {% include "base/code.nunjucks" %}
   {% include "base/em.nunjucks" %}
@@ -41,6 +37,10 @@
   {% include "base/strong.nunjucks" %}
   {% include "base/table.nunjucks" %}
   {% include "base/ul.nunjucks" %}
+
+  <h3 class="base--h3">Color Palette</h3>
+  <hr class="base--hr">
+  {% include "core/colors.nunjucks" %}
 
   <h3 class="base--h3">Input & textarea</h3>
   <hr class="base--hr">
