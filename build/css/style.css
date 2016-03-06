@@ -283,7 +283,7 @@ body {
 .base--h1 {
   font-size: 2.44141em;
   font-weight: 700;
-  color: #325c80; }
+  color: #323c3c; }
   @media (min-width: ) {
     .base--h1 {
       font-size: 3.15733em; } }
@@ -291,17 +291,17 @@ body {
 .base--h2 {
   font-size: 1.95312em;
   font-weight: 700;
-  color: #d74108; }
+  color: #323c3c; }
 
 .base--h3 {
   font-size: 1.5625em;
   font-weight: 400;
-  color: #323232; }
+  color: #323c3c; }
 
 .base--h4 {
   font-size: 1.25em;
   font-weight: 400;
-  color: #323232; }
+  color: #323c3c; }
   @media (min-width: ) {
     .base--h4 {
       font-size: 1.333em; } }
@@ -309,12 +309,12 @@ body {
 .base--h5 {
   font-size: 1em;
   font-weight: 700;
-  color: #464646; }
+  color: #323c3c; }
 
 .base--h6 {
   font-size: 1em;
   font-weight: 400;
-  color: #323232; }
+  color: #323c3c; }
 
 .base--input, .base--color-input, .base--date-input, .base--datetime-local-input, .base--email-input, .base--file-input, .base--hidden-input, .base--month-input, .base--number-input, .base--password-input, .base--range-input, .base--search-input, .base--tel-input, .base--text-input, .base--time-input, .base--url-input, .base--week-input, .base--select {
   width: 100%;

@@ -2,7 +2,7 @@ $ColorScheme: (
   'primary color': color('blue', 60),
   'secondary color': color('orange', 50),
   'white': #fff,
-  'black': #000
+  'black': color('cool-gray', 80)
 );
 
 $GlobalSettings: map-merge($GlobalSettings, $ColorScheme);
