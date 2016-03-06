@@ -492,28 +492,32 @@ body {
   border-top: 2px solid #ececec; }
 
 .base--a {
-  color: #d74108; }
+  color: #d74108;
+  display: block; }
   .base--a:visited {
     color: #d74108; }
   .base--a:hover, .base--a:focus {
     color: #aeaeae; }
 
 .base--em {
-  font-style: italic; }
+  font-style: italic;
+  display: block; }
 
 .base--strong {
-  font-weight: 700; }
+  font-weight: 700;
+  display: block; }
 
 .base--p {
   font-size: 1em;
-  color: #5a5a5a;
-  margin-top: 0; }
+  color: #323c3c;
+  display: block; }
 
 .base--code {
   padding: .2em .5em;
   font-size: .8em;
   color: #d74108;
-  outline: 1px solid rgba(119, 118, 119, 0.25); }
+  outline: 1px solid rgba(119, 118, 119, 0.25);
+  display: block; }
 
 .base--pre, .base--pre code, .base--pre .base--code {
   display: block;

@@ -12,13 +12,12 @@
     {% include "base/h5.nunjucks" %}
     {% include "base/h6.nunjucks" %}
   </div>
-  {% include "base/a.nunjucks" %}
   {% include "base/p.nunjucks" %}
-  {% include "base/blockquote.nunjucks" %}
+  {% include "base/a.nunjucks" %}
   {% include "base/em.nunjucks" %}
   {% include "base/strong.nunjucks" %}
+  {% include "base/blockquote.nunjucks" %}
   {% include "base/code.nunjucks" %}
-  {% include "base/pre.nunjucks" %}
 
   <h3 class="base--h3">Button</h3>
   <hr class="base--hr">

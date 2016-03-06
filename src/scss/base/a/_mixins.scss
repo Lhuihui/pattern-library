@@ -1,6 +1,7 @@
 @mixin base--a($color: null, $background: null) {
 
   color: get('secondary color');
+  display: block;
 
   &:visited {
     color: get('secondary color');
