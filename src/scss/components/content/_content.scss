@@ -1,0 +1,13 @@
+@import 'mixins';
+@import 'extends';
+
+.content {
+  @extend %content;
+
+  &--heading{
+    font-size: ms(1);
+    color: get('accent color');
+    font-weight: bold;
+    margin-top: get('rhythm');
+  }
+}

@@ -282,7 +282,7 @@ body {
 
 .base--h1 {
   font-size: 2.44141em;
-  font-weight: 700;
+  font-weight: 400;
   color: #323c3c; }
   @media (min-width: ) {
     .base--h1 {
@@ -290,7 +290,7 @@ body {
 
 .base--h2 {
   font-size: 1.95312em;
-  font-weight: 700;
+  font-weight: 400;
   color: #323c3c; }
 
 .base--h3 {
@@ -308,7 +308,7 @@ body {
 
 .base--h5 {
   font-size: 1em;
-  font-weight: 700;
+  font-weight: 400;
   color: #323c3c; }
 
 .base--h6 {
@@ -2328,3 +2328,9 @@ body {
   margin-top: 0;
   padding: 0.5rem 0;
   font-size: 1.333em; }
+
+.content--heading {
+  font-size: 1.25em;
+  color: #5596e6;
+  font-weight: bold;
+  margin-top: 2rem; }
