@@ -28,10 +28,10 @@
 }
 
 @mixin base--button_blue() {
-  @include base--button($color: white, $background: get('primary color'), $border: get('primary color'));
+  @include base--button($color: white, $background: get('secondary color'), $border: get('secondary color'));
   &:focus,
   &:hover {
-    @include base--button($background: color('blue', 70), $border: color('blue', 70));
+    @include base--button($background: get('accent color'), $border: get('accent color'));
   }
 }
 

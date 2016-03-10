@@ -457,22 +457,22 @@ body {
   padding: 0.5em 1em;
   color: white;
   font-weight: bold;
-  background-color: #fdd600;
-  border: 2px solid #fdd600;
+  background-color: #d74108;
+  border: 2px solid #d74108;
   display: inline-block; }
   .base--button_submit:hover, .base--button_submit:focus {
     color: #fff;
-    background-color: #fdd600; }
+    background-color: #d74108; }
   .base--button_submit:focus, .base--button_submit:hover {
     padding: 0.5em 1em;
     color: #d74108;
     font-weight: bold;
-    background-color: #264a60;
-    border: 2px solid #264a60;
+    background-color: #5596e6;
+    border: 2px solid #5596e6;
     display: inline-block; }
     .base--button_submit:focus:hover, .base--button_submit:focus:focus, .base--button_submit:hover:hover, .base--button_submit:hover:focus {
       color: #fff;
-      background-color: #264a60; }
+      background-color: #5596e6; }
 
 .base--button_reset {
   padding: 0.5em 1em;
