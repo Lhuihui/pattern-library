@@ -38,10 +38,6 @@
     {% include "base/radio.nunjucks" %}
     {% include "base/select.nunjucks" %}
 
-    <div class="content--heading">Color Palette</div>
-    <hr class="base--hr">
-    {% include "core/colors.nunjucks" %}
-
     <div class="content--heading">Input, Textarea & Table</div>
     <hr class="base--hr">
     {% include "base/input.nunjucks" %}
