@@ -321,10 +321,10 @@ body {
   padding: 0.6em 1em;
   font-size: 1em;
   font-weight: 300;
-  border: 1px solid #325c80; }
+  border: 1px solid #fdd600; }
   .base--input:focus, .base--color-input:focus, .base--date-input:focus, .base--datetime-local-input:focus, .base--email-input:focus, .base--file-input:focus, .base--hidden-input:focus, .base--month-input:focus, .base--number-input:focus, .base--password-input:focus, .base--range-input:focus, .base--search-input:focus, .base--tel-input:focus, .base--text-input:focus, .base--time-input:focus, .base--url-input:focus, .base--week-input:focus, .base--select:focus {
-    outline: 2px solid #325c80;
-    border-color: #325c80; }
+    outline: 2px solid #fdd600;
+    border-color: #fdd600; }
   .base--input:disabled, .base--color-input:disabled, .base--date-input:disabled, .base--datetime-local-input:disabled, .base--email-input:disabled, .base--file-input:disabled, .base--hidden-input:disabled, .base--month-input:disabled, .base--number-input:disabled, .base--password-input:disabled, .base--range-input:disabled, .base--search-input:disabled, .base--tel-input:disabled, .base--text-input:disabled, .base--time-input:disabled, .base--url-input:disabled, .base--week-input:disabled, .base--select:disabled {
     background-color: #ececec; }
 
@@ -364,10 +364,10 @@ body {
   padding: 0;
   background-color: #fff;
   border-radius: 0.5em;
-  box-shadow: inset 0 0 0 0.125em #325c80; }
+  box-shadow: inset 0 0 0 0.125em #fdd600; }
   .base--range-input:focus {
     outline: 0;
-    box-shadow: inset 0 0 0 0.125em #325c80; }
+    box-shadow: inset 0 0 0 0.125em #fdd600; }
   .base--range-input:disabled {
     opacity: .5; }
   .base--range-input::-moz-range-track {
@@ -375,18 +375,18 @@ body {
     padding: 0;
     background-color: #fff;
     border-radius: 0.5em;
-    box-shadow: inset 0 0 0 0.125em #325c80; }
+    box-shadow: inset 0 0 0 0.125em #fdd600; }
   .base--range-input::-webkit-slider-thumb {
     -webkit-appearance: none;
     width: 1.5em;
     height: 1.5em;
     background: #fff;
     border-radius: 1.5em;
-    box-shadow: inset 0 0 0 0.1875em #325c80;
+    box-shadow: inset 0 0 0 0.1875em #fdd600;
     -webkit-transition-duration: .5s;
             transition-duration: .5s; }
   .base--range-input:active::-webkit-slider-thumb {
-    box-shadow: inset 0 0 0 1.25em #325c80;
+    box-shadow: inset 0 0 0 1.25em #fdd600;
     width: 1.875em;
     height: 1.875em; }
   .base--range-input::-moz-range-thumb {
@@ -395,10 +395,10 @@ body {
     height: 1.5em;
     background: #fff;
     border-radius: 1.5em;
-    box-shadow: inset 0 0 0 0.1875em #325c80;
+    box-shadow: inset 0 0 0 0.1875em #fdd600;
     transition-duration: .5s; }
   .base--range-input:active::-moz-range-thumb {
-    box-shadow: inset 0 0 0 1.25em #325c80;
+    box-shadow: inset 0 0 0 1.25em #fdd600;
     width: 1.875em;
     height: 1.875em; }
 
@@ -437,7 +437,7 @@ body {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww%2Ew3%2Eorg%2F2000%2Fsvg%22%20viewbox%3D%220%200%2014%2014%20true%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpolygon%20fill%3D%22%23325c80%22%20points%3D%220%2C0%206%2E825%2C14%2014%2C0%20%22%2F%3E%3C%2Fsvg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww%2Ew3%2Eorg%2F2000%2Fsvg%22%20viewbox%3D%220%200%2014%2014%20true%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpolygon%20fill%3D%22%23fdd600%22%20points%3D%220%2C0%206%2E825%2C14%2014%2C0%20%22%2F%3E%3C%2Fsvg%3E");
   background-size: 1em 1em;
   background-repeat: no-repeat;
   background-position: calc(100% - .3em) 1em; }
@@ -457,12 +457,12 @@ body {
   padding: 0.5em 1em;
   color: white;
   font-weight: bold;
-  background-color: #325c80;
-  border: 2px solid #325c80;
+  background-color: #fdd600;
+  border: 2px solid #fdd600;
   display: inline-block; }
   .base--button_submit:hover, .base--button_submit:focus {
     color: #fff;
-    background-color: #325c80; }
+    background-color: #fdd600; }
   .base--button_submit:focus, .base--button_submit:hover {
     padding: 0.5em 1em;
     color: #d74108;
@@ -578,7 +578,7 @@ body {
 .base--thead {
   font-weight: bold;
   color: #fff;
-  background-color: #325c80; }
+  background-color: #fdd600; }
 
 .base--td {
   padding: 1em; }
@@ -2321,3 +2321,10 @@ body {
       left: 0; }
   .color-tile--details {
     color: inherit; }
+
+.heading {
+  background-color: #323c3c;
+  color: #fdd600;
+  margin-top: 0;
+  padding: 0.5rem 0;
+  font-size: 1.333em; }

@@ -1,0 +1,6 @@
+@import 'mixins';
+@import 'extends';
+
+.heading {
+  @extend %heading;
+}
