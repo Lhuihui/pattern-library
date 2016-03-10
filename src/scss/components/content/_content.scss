@@ -5,9 +5,13 @@
   @extend %content;
 
   &--heading{
-    font-size: ms(1);
+    font-size: ms(3);
     color: get('accent color');
-    font-weight: bold;
-    margin-top: get('rhythm');
+    font-weight: get('thin weight font');
+    margin-top: 2 * get('rhythm');
+
+    &:first-child{
+      margin-top:  get('rhythm'); 
+    }
   }
 }

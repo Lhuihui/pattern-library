@@ -3,4 +3,8 @@
 
 .heading {
   @extend %heading;
+
+  &--strong{
+    display: inline-block;
+  }
 }
