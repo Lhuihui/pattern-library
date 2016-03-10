@@ -1,3 +1,4 @@
+<label class="base--block-label" for="textarea1">Table:</label>
 <table class="base--table">
   <thead class="base--thead">
     <tr class="base--tr">
