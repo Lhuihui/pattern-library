@@ -570,7 +570,7 @@ body {
   margin-left: 1em;
   font-style: italic;
   color: #464646;
-  border-left: 0.25em solid; }
+  border-left: 0.25em solid #d74108; }
 
 .base--table {
   width: 100%; }
