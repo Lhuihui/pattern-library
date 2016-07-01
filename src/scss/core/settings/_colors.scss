@@ -1,7 +1,11 @@
 $ColorScheme: (
-  'primary color': color('yellow', 20),
-  'secondary color': color('orange', 50),
-  'accent color': color('blue', 40),
+  'primary color': color('purple', 60),
+  'secondary color': color('blue', 80),
+  'primary accent color': color('purple', 20),
+  'secondary accent color': color('blue', 10),
+  'primary support color': color('purple', 10),
+  'secondary support color': color('teal', 10),
+  'text color': color('gray', 70),
   'white': #fff,
   'black': color('cool-gray', 80)
 );

@@ -1,6 +1,6 @@
 @mixin heading {
-  background-color: get('black');
-  color: get('primary color');
+  background-color: get('secondary color');
+  color: get('primary accent color');
   margin-top: 0;
   padding: get('rhythm') / 4 0;
   font-size: ms(0);

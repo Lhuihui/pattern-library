@@ -281,6 +281,7 @@ body {
     margin-top: 1rem; }
 
 body {
+  color: #464646;
   font-weight: 300; }
 
 .base--h1 {
@@ -326,8 +327,8 @@ body {
   font-weight: 300;
   border: 1px solid #323c3c; }
   .base--input:focus, .base--color-input:focus, .base--date-input:focus, .base--datetime-local-input:focus, .base--email-input:focus, .base--file-input:focus, .base--hidden-input:focus, .base--month-input:focus, .base--number-input:focus, .base--password-input:focus, .base--range-input:focus, .base--search-input:focus, .base--tel-input:focus, .base--text-input:focus, .base--time-input:focus, .base--url-input:focus, .base--week-input:focus, .base--select:focus {
-    outline: 2px solid #fdd600;
-    border-color: #fdd600; }
+    outline: 2px solid #734098;
+    border-color: #734098; }
   .base--input:disabled, .base--color-input:disabled, .base--date-input:disabled, .base--datetime-local-input:disabled, .base--email-input:disabled, .base--file-input:disabled, .base--hidden-input:disabled, .base--month-input:disabled, .base--number-input:disabled, .base--password-input:disabled, .base--range-input:disabled, .base--search-input:disabled, .base--tel-input:disabled, .base--text-input:disabled, .base--time-input:disabled, .base--url-input:disabled, .base--week-input:disabled, .base--select:disabled {
     background-color: #ececec; }
 
@@ -370,7 +371,7 @@ body {
   box-shadow: inset 0 0 0 0.125em #323c3c; }
   .base--range-input:focus {
     outline: 0;
-    box-shadow: inset 0 0 0 0.125em #fdd600; }
+    box-shadow: inset 0 0 0 0.125em #734098; }
   .base--range-input:disabled {
     opacity: .5; }
   .base--range-input::-moz-range-track {
@@ -447,35 +448,33 @@ body {
 
 .base--button {
   padding: 0.5em 1em;
-  color: #d74108;
+  color: #1d3649;
   font-weight: bold;
   background-color: transparent;
-  border: 2px solid #d74108;
+  border: 2px solid #1d3649;
   display: inline-block; }
   .base--button:hover, .base--button:focus {
     color: #fff;
-    background-color: #d74108; }
+    background-color: #1d3649; }
 
 .base--button_submit {
   padding: 0.5em 1em;
   color: white;
   font-weight: bold;
-  background-color: #d74108;
-  border: 2px solid #d74108;
+  background-color: #1d3649;
+  border: 2px solid #1d3649;
   display: inline-block; }
   .base--button_submit:hover, .base--button_submit:focus {
     color: #fff;
-    background-color: #d74108; }
+    background-color: #1d3649; }
   .base--button_submit:focus, .base--button_submit:hover {
     padding: 0.5em 1em;
-    color: #d74108;
+    color: #1d3649;
     font-weight: bold;
-    background-color: #5596e6;
-    border: 2px solid #5596e6;
+    border: 2px solid;
     display: inline-block; }
     .base--button_submit:focus:hover, .base--button_submit:focus:focus, .base--button_submit:hover:hover, .base--button_submit:hover:focus {
-      color: #fff;
-      background-color: #5596e6; }
+      color: #fff; }
 
 .base--button_reset {
   padding: 0.5em 1em;
@@ -495,10 +494,10 @@ body {
   border-top: 2px solid #ececec; }
 
 .base--a {
-  color: #d74108;
+  color: #1d3649;
   display: block; }
   .base--a:visited {
-    color: #d74108; }
+    color: #1d3649; }
   .base--a:hover, .base--a:focus {
     color: #aeaeae; }
 
@@ -518,7 +517,7 @@ body {
 .base--code {
   padding: .2em .5em;
   font-size: .8em;
-  color: #d74108;
+  color: #1d3649;
   outline: 1px solid rgba(119, 118, 119, 0.25);
   display: block; }
 
@@ -573,7 +572,7 @@ body {
   margin-left: 1em;
   font-style: italic;
   color: #464646;
-  border-left: 0.25em solid #d74108; }
+  border-left: 0.25em solid #1d3649; }
 
 .base--table {
   width: 100%; }
@@ -581,7 +580,7 @@ body {
 .base--thead {
   font-weight: bold;
   color: #fff;
-  background-color: #d74108; }
+  background-color: #1d3649; }
 
 .base--td {
   padding: 1em; }
@@ -609,8 +608,8 @@ body {
   display: block; }
 
 .heading {
-  background-color: #323c3c;
-  color: #fdd600;
+  background-color: #1d3649;
+  color: #d7aaff;
   margin-top: 0;
   padding: 0.5rem 0;
   font-size: 1em; }
@@ -620,7 +619,6 @@ body {
 
 .content--heading {
   font-size: 1.5625em;
-  color: #5596e6;
   font-weight: 300;
   margin-top: 4rem; }
   .content--heading:first-child {
