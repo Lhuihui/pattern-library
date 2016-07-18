@@ -1,0 +1,5 @@
+<div class="button-group">
+  <button class="base--button button-group--button-red" type="button" name="button">Red Button</button>
+  <button class="base--button" type="button" name="button"></button>
+  <button class="base--button" type="button" name="button"></button>
+</div>

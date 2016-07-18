@@ -1,0 +1,15 @@
+.button-group {
+  height: 100px;
+
+  &--button-red {
+    @include base--button(color('red', 50));
+  }
+
+  &--button-green {
+
+  }
+
+  &--button-blue {
+
+  }
+}

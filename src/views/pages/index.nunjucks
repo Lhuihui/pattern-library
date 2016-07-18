@@ -58,6 +58,7 @@
     {% include "base/input--week.nunjucks" %}
     {% include "base/textarea.nunjucks" %}
     {% include "base/table.nunjucks" %}
+    {% include "base/button-group.nunjucks" %}
   </div>
 </div>
 {% endblock %}

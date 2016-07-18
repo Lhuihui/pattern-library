@@ -623,3 +623,16 @@ body {
   margin-top: 4rem; }
   .content--heading:first-child {
     margin-top: 2rem; }
+
+.button-group {
+  height: 100px; }
+  .button-group--button-red {
+    padding: 0.5em 1em;
+    color: #e71d32;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid #d74108;
+    display: inline-block; }
+    .button-group--button-red:hover, .button-group--button-red:focus {
+      color: #fff;
+      background-color: #d74108; }
